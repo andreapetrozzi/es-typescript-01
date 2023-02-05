@@ -1,22 +1,22 @@
 # es-typescript-01
-First exercise with typescript 
 
-DESCRIZIONE: 
-Esercizio in TypeScript 
-Scrivere un programma che, dati due numeri di due ipotetici giocatori, generi un numero casuale compreso tra 1 e 100 (zero escluso),
-verificare se uno dei due giocatori ha indovinato il numero casuale, e in caso contrario quale dei due si è avvicinato di più al numero.
+### Description: 
 
-  Esempio:
-    Input: giocatore 1 = 5, giocatore 2 = 10
-    Output: Numero casuale generato = 7
-    "Nessuno dei due ha azzeccato il numero casuale, ma il giocatore 1 si è avvicinato di più!"
+Writing a program which, given two numbers of two hypothetical players, generates a random number between 1 and 100 (zero excluded).</br>
+The next step is to check whether one of the two players has guessed the random number, and if not which of the two has come closest to the number.
+
+Example:
+Input: giocatore 1 = 5, giocatore 2 = 10
+Output: Numero casuale generato = 7
+
+Result:
+"Nessuno dei due ha indovianto il numero casuale, 
+ ma il giocatore 1 si è avvicinato di più!"
 
 
-NB:
-    Crea File -> nomefile.ts
+### Terminal:
+- npm i --save-dev @types/node
+- npm i --save-dev @types/jquery                           
+- tsc --init
 
-    npm i --save-dev @types/node
-    npm i --save-dev @types/jquery                           
-    tsc --init
-
-    tsc nomefile.ts
+tsc nomefile.ts
